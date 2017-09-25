@@ -1,0 +1,84 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.logo-top-img{
+	width: 100%;
+	height: 300px;
+	opacity: 0.5;
+	background:rgba(253, 68, 76, 1);
+}
+
+.logo-top{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+.logo-img{
+	width: 25px;
+	height: 25px;
+    margin-left: 30px;
+}
+
+.logo-input{
+	width: 80% !important;
+	height: 30px !important;
+	border-top: 0 none !important;
+	border-left: 0 none !important;
+	border-right: 0 none !important;
+	border-bottom: 1px solid #aaa !important;
+	background: none;
+	margin-top: 30px;
+}
+
+.logo-center{
+	width: 100%;
+}
+
+.logo-button{
+	width: 80%;
+	height: 55px;
+	border-radius: 30px;
+	background: -webkit-linear-gradient(left, #f66b32, #ef3328); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #f66b32, #ef3328); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #f66b32, #ef3328); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #f66b32, #ef3328); /* 标准的语法（必须放在最后） */
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.logo-bu-bottom{
+	width: 70%;
+	height: 60px;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+
+.bottom-third{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.left-line{
+	width: 29%;
+	height: 1px;
+	background: #AAA;
+	float: left;
+}
+
+.Third-login{
+	font-size: 16px;
+	color:#aaa;
+}
+
+.right-line{
+	width: 29%;
+	height: 1px;
+	background: #AAA;
+	float: right;
+}

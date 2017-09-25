@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>My First Mail-Login</title>
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/logo.css"/>
+	</head>
+	<body>
+		<div>
+			<div class="logo-top"> 
+				<img class="logo-top-img" src="../images/cbd.jpg"/>
+				<h1 style="font-size:50px;color: #e22425;position: absolute;top: 100px;left: 35%;">LOGO</h1>
+			</div>
+			<div class="logo-center"> 
+				<div id="input_example">
+					<label><img class="logo-img" src="../images/person.png"/></label>
+					<input id="loginValue" type="text" class="logo-input" placeholder="输入用户账号"/>
+				</div>
+				<div id="input_example">
+					<label><img class="logo-img" src="../images/password.png"/></label>
+					<input id="passwordValue" type="password" class="logo-input" placeholder="输入密码"/>
+				</div>
+				<button id="buttonAction" class="logo-button" type="button">登录</button>
+				<div class="logo-bu-bottom">
+					<a style="float: left;color: #aaa;font-size: 12px;" href="#">注册</a>
+					<a style="float: right;color: #aaa;font-size: 12px;" href="#">忘记密码</a>
+				</div>
+			</div>	
+			<div class="logo-bottom"> 
+				<div class="bottom-third">
+					<span class="left-line"></span>
+					<span class="Third-login">第三方登录</span>
+					<span class="right-line"></span>
+				</div>
+				<div class="top" id="testLogin">
+                <span class="mui-icon weixin" id="weixin"></span> 
+                <a><span class="mui-icon qq" id="qq"></span> 
+                <span class="mui-icon sinaweibo" id="sinaweibo"></span>
+            </div>
+			</div>	
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../js/login.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+		<title>My First Mail</title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+	</head>
+
+	<body>
+	<header id="header" class="mui-bar-transparent">
+		<input id="input" class="searchInput" type="text" placeholder="搜索商品" onchange="searchV(this.value)" onfocus="getFocus(this)" onblur="loseBlur(this)" />
+		<img class="search" src="../images/search.png" onclick="searchResult(this)" />
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="mail.html">
+			<span class="mui-icon icon-shouye" style="color: #f00;"></span>
+			<span class="mui-tab-label" style="color: #f00;">首页</span>
+		</a>
+		<a class="mui-tab-item" href="#book">
+			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/book.png"></span>
+			<span class="mui-tab-label">酒店预订</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar-with-contact">
+			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/mail.png"></span>
+			<span class="mui-tab-label">至爱商城</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar-with-map">
+			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/shopCart.png"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a class="mui-tab-item" href="logo.html">
+			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/mine.png"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<div class="mui-content" style="position:absolute;top:0px;z-index: -1;">
+		<div id="slider" class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/shuijiao.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/muwu.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/cbd.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../images/shuijiao.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<ul class="list">
+			<li>
+				<a class="circle" style="background: #e22425;" href="#"><img src="../images/上新通知.png"></a>
+				<p class="m-top">每日上新</p>
+			</li>
+			<li>
+				<a class="circle" style="background: #ffc32d;" href="#"><img src="../images/推荐选中.png"></a>
+				<p class="m-top">精品推荐</p>
+			</li>
+			<li>
+				<a class="circle" style="background: #9de13c;" href="#"><img src="../images/优惠折扣.png"></a>
+				<p class="m-top">限时折扣</p>
+			</li>
+			<li>
+				<a class="circle" style="background: #2fcaf6;" href="#"><img src="../images/商店.png"></a>
+				<p class="m-top">品牌街</p>
+			</li>
+			<li>
+				<a class="circle" style="background: #1fd3d0;" href="#"><img src="../images/菜单.png"></a>
+				<p class="m-top">分类</p>
+			</li>
+		</ul>
+		<div class="product">
+			<a class="w-yinx" href="#">
+				<p><span class="title">乐天下</span><br/><span class="t-yinx">插卡带蓝牙音箱</span></p>
+				<img class="yinx" src="../images/yinxiang.jpg">
+			</a>
+			<a class="left-top" href="#">
+				<p style="float: left;"><span class="title" style="color: #fd444c;">智能语音遥控器</span><br/><span class="t-yinx">智能家居</span></p>
+				<img class="yuy" src="../images/语音.png">
+			</a>
+			<div class="left-bottom">
+				<a class="l-b-left" href="#">
+					<p><span class="title" style="color: #24b8e0;">ROOTS</span><br/><span class="t-yinx">智能家居</span></p>
+					<img class="l-b-yuy" src="../images/语音.png">
+				</a>
+				<a class="l-b-right" href="#">
+					<p><span class="title" style="color: #24b8e0;">秋冬上新</span><br/><span class="t-yinx">智能家居</span></p>
+					<img class="l-b-yuy" src="../images/语音.png">
+				</a>
+			</div>
+		</div>
+		<div class="recommend">
+			<div class="t-recommend">
+				<span style="width: 1px; height: 50px;border: 1px solid red;margin-right: 20px;padding: 12px 0 10px 0;"></span>
+				<span class="t-p-recommend">潮品推荐</span>
+			</div>
+		</div>
+		<div class="recom-product">
+			<div class="list-recom-product">
+				<a class="recom-list" style="float: left;" href="#">
+					<p><span id="recomT">希腊进口</span><br/><span id="recom-p">干红干白组合</span></p>
+					<img id="img-product" src="../images/yinxiang.jpg" />
+				</a>
+				<a class="recom-list" style="float: right;" href="#">
+					<p><span id="recomT">韩国家宝</span><br/><span id="recom-p">蜂蜜柚子茶</span></p>
+					<img id="img-product" src="../images/fengM.jpg" />
+				</a>
+				<a class="recom-list" style="float: left;" href="#">
+					<p><span id="recomT">希腊进口</span><br/><span id="recom-p">干红干白组合</span></p>
+					<img id="img-product" src="../images/yinxiang.jpg" />
+				</a>
+				<a class="recom-list" style="float: right;" href="#">
+					<p><span id="recomT">韩国家宝</span><br/><span id="recom-p">蜂蜜柚子茶</span></p>
+					<img id="img-product" src="../images/fengM.jpg" />
+				</a>
+			</div>
+		</div>
+	</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/index.js"></script>
+		<!--<script src="../js/mail.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript" charset="utf-8">
+			var slider = mui("#slider");
+			window.onload=function(){
+				slider.slider({
+						interval: 5000
+					});
+			}
+		</script>
+	</body>
+
+</html>

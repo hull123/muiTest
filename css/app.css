@@ -1,0 +1,221 @@
+/*
+ *这是单独为hello mui准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ * 
+ * */
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: "微软雅黑", arial;
+	font-size: 16px;
+	font-weight: 500;
+	background: #f6f6f6;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+　　color: #9f9f9f;
+    font-size:16px;
+    letter-spacing: 3px;
+}
+
+ul{
+	margin: 0 !important;
+	list-style: none;
+	color: #aaa;	
+}
+
+.m-top{
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+.search{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 27px;
+	left: 10%;
+}
+
+.searchInput{
+	width: 90% !important;
+	height: 40px !important;
+	margin-top: 20px;
+	margin-left: 5%;
+	border: 1px solid rgba(255, 255, 255, 0.4) !important;
+	border-radius: 5px;
+	background: rgba(244, 241, 247, 0.6) !important;
+	text-align: center !important;
+}
+
+.list{
+	width: 100%;
+	height: 120px;
+	padding-top: 20px;
+	/*padding-right: 45px;*/
+	background: #fff;
+}
+
+.list li{
+	width:20%;
+	float: left;
+	text-align: center;
+}
+
+.list li img{
+	width:20px;
+	height:20px;
+	margin-top: 15px;
+}
+
+.circle{
+	padding:15px 13px 8px 13px;
+	border-radius: 60px;
+	text-align: center;
+}
+
+.mui-plus header.mui-bar{
+	display: none;
+}
+.mui-plus .mui-bar-nav~.mui-content{
+	padding: 0;
+}
+
+/*hm开头的表示仅为 Hello MUI示例定义*/
+.hm-description{
+	margin: .5em 0;
+}
+
+.hm-description>li {
+	font-size: 14px;
+	color: #8f8f94;
+}
+
+.product{
+	width: 100%;
+	height:180px;
+}
+
+.w-yinx{
+	width:40%;
+	height:270px;
+	background: #fff;
+	padding-left:25px;
+	padding-top:25px;
+	margin-top: 20px;
+	float: left;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+}
+
+.t-yinx{
+	color: #aaa;
+	font-size: 16px;
+}
+
+
+.yinx{
+	width: 60%;
+	margin-top: 30px;
+}
+
+.left-top{
+	width: 59%;
+	height:120px ;
+	background: #fff;
+	padding-left:25px;
+	padding-top:25px;
+	margin-top: 20px;
+	float: right;
+}
+
+.yuy{
+	width: 50%;
+	float: right;
+	margin-right: 20px;
+}
+
+.l-b-yuy{
+	width: 80%;
+	margin-left:10px;
+}
+
+.l-b-left{
+	float: left;
+	width: 28.7%;
+	height: 145px;
+	background: #fff;
+	margin-top: 5px;
+	margin-left: 5px;
+    padding-left:20px;
+	padding-top:10px;
+}
+
+.l-b-right{
+	float: right;
+	width: 28.6%;
+	height: 145px;
+	background: #fff;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.recommend{
+	clear: both;
+}
+
+.t-recommend{
+	height: 50px;
+	margin-top:130px;
+	background: #fff;
+}
+
+.t-p-recommend{
+	color: #000;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.recom-product{
+	
+}
+
+.list-recom-product{
+	margin-top: 10px !important;
+}
+
+.recom-list{
+	padding-top: 30px;
+	margin-bottom: 10px;
+	width: 49%;
+	height: 260px;
+	background: #FFF;
+}
+
+#img-product{
+	width: 80%;
+	}
+
+#recomT{
+	font-size: 20px;
+	color: #000;
+	padding:30px 0 0 20px;
+}
+
+#recom-p{
+	padding:30px 0 0 20px;
+}
+
+#img-product{
+	margin-left: 20px;
+}
