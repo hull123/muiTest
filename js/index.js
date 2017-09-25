@@ -40,27 +40,3 @@ function loseBlur(){//失去焦点
 function searchResult(){//点击搜索按钮事件
 	console.log('11111111111');
 }
-
-function homeTabBar(){//首页
-	
-}
-
-function bookTabBar(){//预订
-	console.log('111111');
-	document.getElementById('navBar').style.color='#e22425';
-	/* window.location.reload('html/book.html');*/
-	 /*window.history.go("book.html")*/
-	window.location.href = "html/book.html";
-}
-
-function mailTabBar(){//商城
-	
-}
-
-function shopCartTabBar(){//购物车
-	
-}
-
-function mineTabBar(){//我的
-	
-}

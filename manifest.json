@@ -11,7 +11,7 @@
 		"72": "icon.png"
 	},
 	"fullscreen":true,
-	"launch_path": "mail/logo.html",/*必选，应用的入口页面，默认为根目录下的index.html；也可以是网络地址，网络地址必须以http://或https://开头*/
+	"launch_path": "mail/tabBar.html",/*必选，应用的入口页面，默认为根目录下的index.html；也可以是网络地址，网络地址必须以http://或https://开头*/
 	"developer": {
 		"email": "",/*可选，开发者名称*/
 		"name": "",/*可选，开发者邮箱地址*/
@@ -144,7 +144,7 @@
 					"iphone": {
 						"default": "", /*必选，320x480，iPhone3启动图片*/
 						"retina35": "",/*必选，640x960，3.5英寸设备(iPhone4)启动图片*/
-						"retina40": "" /*4.0 英寸设备(iPhone5)启动图片*/
+						"retina40": "","retina47":"images/loading.png" /*4.0 英寸设备(iPhone5)启动图片*/
 					},
 					"ipad": {
 						"portrait": "", /*可选，768x1004，需支持iPad时必选，iPad竖屏启动图片*/

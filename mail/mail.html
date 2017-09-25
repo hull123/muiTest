@@ -17,28 +17,6 @@
 		<input id="input" class="searchInput" type="text" placeholder="搜索商品" onchange="searchV(this.value)" onfocus="getFocus(this)" onblur="loseBlur(this)" />
 		<img class="search" src="../images/search.png" onclick="searchResult(this)" />
 	</header>
-	<nav class="mui-bar mui-bar-tab">
-		<a class="mui-tab-item mui-active" href="mail.html">
-			<span class="mui-icon icon-shouye" style="color: #f00;"></span>
-			<span class="mui-tab-label" style="color: #f00;">首页</span>
-		</a>
-		<a class="mui-tab-item" href="#book">
-			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/book.png"></span>
-			<span class="mui-tab-label">酒店预订</span>
-		</a>
-		<a class="mui-tab-item" href="#tabbar-with-contact">
-			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/mail.png"></span>
-			<span class="mui-tab-label">至爱商城</span>
-		</a>
-		<a class="mui-tab-item" href="#tabbar-with-map">
-			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/shopCart.png"></span>
-			<span class="mui-tab-label">购物车</span>
-		</a>
-		<a class="mui-tab-item" href="logo.html">
-			<span class="mui-icon"><img style="width: 20px;height: 20px;" src="../images/mine.png"></span>
-			<span class="mui-tab-label">我的</span>
-		</a>
-	</nav>
 	<div class="mui-content" style="position:absolute;top:0px;z-index: -1;">
 		<div id="slider" class="mui-slider">
 			<div class="mui-slider-group mui-slider-loop">
@@ -157,7 +135,6 @@
 	</div>
 		<script src="../js/mui.min.js"></script>
 		<script src="../js/index.js"></script>
-		<!--<script src="../js/mail.js" type="text/javascript" charset="utf-8"></script>-->
 		<script type="text/javascript" charset="utf-8">
 			var slider = mui("#slider");
 			window.onload=function(){

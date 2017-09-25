@@ -1356,7 +1356,7 @@ input[type=submit]:enabled:active {
 }
 
 .mui-bar-tab .mui-tab-item.mui-active {
-	color: #007aff
+	color: #f00
 }
 
 .mui-bar-tab .mui-tab-item .mui-icon {
