@@ -1,5 +1,5 @@
  //把子页面放进数组 subpages
-var subpages = ['mail.html', '../subPages/book.html', '../subPages/shopping.html', '../subPages/cart.html', 'logo.html'];
+var subpages = ['mail.html', '../subPages/book.html', '../subPages/shopping.html', '../subPages/cart.html', 'mine.html'];
 var subpage_style = {
 	top: '0',
 	bottom: '55px'

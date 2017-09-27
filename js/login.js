@@ -1,4 +1,22 @@
+
+function getAccountFocus(){
+	document.getElementById('icon-wode1').style.color='#e22425';
+	}
+
+function getAccountBlur(){
+	document.getElementById('icon-wode1').style.color='#aaa';
+}
+
+function getPasswordFocus(){
+		document.getElementById('icon-password').style.color='#e22425';
+	}
+
+function getPasswordBlur(){
+	document.getElementById('icon-password').style.color='#aaa';
+}
+
 (function($, doc) {
+	
 	document.getElementById("loginValue").addEventListener('input', function() {
 		console.log(this.value);
 	});

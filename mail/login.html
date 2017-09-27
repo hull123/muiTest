@@ -5,22 +5,28 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>My First Mail-Login</title>
 		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/logo.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
 	</head>
 	<body>
 		<div>
+			<header class="mui-bar mui-bar-nav">
+				<a class="mui-icon mui-pull-left mui-icon-back" style="color: #E22425;"></a>
+				<h1 id="title" class="mui-title">登录</h1>
+				<a class="mui-pull-right" style="line-height: 45px; padding-right: 10px; color: #e22425;">注册</a>
+			</header>
 			<div class="logo-top"> 
 				<img class="logo-top-img" src="../images/cbd.jpg"/>
 				<h1 style="font-size:50px;color: #e22425;position: absolute;top: 100px;left: 35%;">LOGO</h1>
 			</div>
 			<div class="logo-center"> 
 				<div id="input_example">
-					<label><img class="logo-img" src="../images/person.png"/></label>
-					<input id="loginValue" type="text" class="logo-input" placeholder="输入用户账号"/>
+					<span id="icon-wode1" class="mui-icon icon-wode" style="color: #aaa;"></span>
+					<input id="loginValue" type="text"  onfocus="getAccountFocus(this)" onblur="getAccountBlur(this)" class="logo-input" placeholder="输入用户账号"/>
 				</div>
 				<div id="input_example">
-					<label><img class="logo-img" src="../images/password.png"/></label>
-					<input id="passwordValue" type="password" class="logo-input" placeholder="输入密码"/>
+					<span id="icon-password" class="mui-icon icon-password" style="color: #aaa;"></span>
+					<input id="passwordValue" type="password" onfocus="getPasswordFocus(this)" onblur="getPasswordBlur(this)" class="logo-input" placeholder="输入密码"/>
 				</div>
 				<button id="buttonAction" class="logo-button" type="button">登录</button>
 				<div class="logo-bu-bottom">
